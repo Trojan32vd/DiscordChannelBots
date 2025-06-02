@@ -11,7 +11,7 @@ TOKEN = os.getenv("DISCORD_TOKEN_IMAGE")
 ALLOWED_CHANNEL_ID = 1378865895656521830  # Replace with your specific channel ID
 
 
-#keep_alive()
+keep_alive()
 
 
 intents = discord.Intents.default()
