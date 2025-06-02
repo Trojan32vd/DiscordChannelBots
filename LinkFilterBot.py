@@ -11,7 +11,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 ALLOWED_CHANNEL_ID = 1378465036397449316  # Replace with your specific channel ID
 
 
-#keep_alive()
+keep_alive()
 
 # Regex to detect links
 VALID_LINK_REGEX = re.compile(
