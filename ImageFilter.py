@@ -49,6 +49,5 @@ async def on_message(message):
 # bot.run(TOKEN)
 
 # Expose the bot and token for main.py
-__all__ = ['bot']
-bot.TOKEN = TOKEN
+bot.run(TOKEN)
 
